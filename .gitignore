@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Runtime SQLite database — generated on first run, not checked in
+data/app.db
+
+# Note: models/land_use_classifier.joblib and models/confusion_matrix.png
+# ARE intentionally tracked (not ignored) so the repo works out of the box
+# without requiring `python scripts/train.py` first. See README.md.
+
+.DS_Store
+.idea/
+.vscode/

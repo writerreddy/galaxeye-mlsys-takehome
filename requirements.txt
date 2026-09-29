@@ -1,0 +1,21 @@
+# Backend
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+sqlalchemy==2.1.1
+python-multipart==0.0.32
+
+# ML
+scikit-learn==1.8.0
+pillow==12.1.1
+numpy==2.4.4
+joblib==1.5.3
+
+# Evaluation (confusion matrix plot only — optional, evaluate.py degrades
+# gracefully without it)
+matplotlib==3.10.8
+
+# Testing
+pytest==9.1.1
+httpx==0.28.1

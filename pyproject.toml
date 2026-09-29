@@ -1,0 +1,9 @@
+[project]
+name = "galaxeye-takehome"
+version = "0.1.0"
+description = "GalaxEye Backend Engineer, ML Systems — take-home assignment: offline satellite tile land-use classification service."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
